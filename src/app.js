@@ -33,10 +33,10 @@ class App extends React.Component {
             <div>
               <SearchBar onSearchTermChange={videoSearch}/>
               <div className="row">
-                <div className="col s8">
+                <div className="col l8 m7 s12">
                   <VideoPlayer video={this.state.selectedVideo} />
                 </div>
-                <div className="col s4">
+                <div className="col l4 m5 s12">
                   <VideoList 
                     onVideoSelect={selectedVideo => this.setState({selectedVideo})}
                     videos={this.state.videos} />

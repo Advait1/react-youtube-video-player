@@ -13,7 +13,7 @@ const VideoPlayer = ({video}) => {
     return (
         <div>
           <div className="video-container">
-            <iframe src={url} frameborder="0" allowfullscreen>
+            <iframe src={url}>
             </iframe>
           </div>
           <div className="details">
