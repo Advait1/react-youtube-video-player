@@ -1,0 +1,20 @@
+.collection-item {
+    cursor: pointer;
+}
+
+.collection-item img {
+    max-width: 128px;
+}
+
+.collection-item:hover {
+    background-color: #eee !important;
+}
+
+.video-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-title {
+    margin-left: 10px;
+}
